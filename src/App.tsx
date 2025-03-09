@@ -7,7 +7,7 @@ function App() {
       {/* Header */}
       <header className="bg-rose-500 shadow">
         <div className="max-w-7xl mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-white">Document Viewer</h1>
+          <h1 className="text-3xl font-bold text-white">Rangkuman</h1>
         </div>
       </header>
 
@@ -19,7 +19,7 @@ function App() {
             <div className="px-6 py-4 border-b border-rose-100 bg-rose-50">
               <div className="flex items-center">
                 <FileText className="h-6 w-6 text-rose-500" />
-                <h2 className="ml-2 text-xl font-semibold text-rose-900">Document Contents</h2>
+                <h2 className="ml-2 text-xl font-semibold text-rose-900">Semoga Membantu :)</h2>
               </div>
             </div>
 
@@ -28,9 +28,9 @@ function App() {
               <div className="space-y-6">
                 {/* Navigation */}
                 <nav className="flex items-center text-sm text-rose-400">
-                  <span>Documents</span>
+                  <span></span>
                   <ChevronRight className="h-4 w-4 mx-1" />
-                  <span className="text-rose-600">Current Document</span>
+                  <span className="text-rose-600"></span>
                 </nav>
 
                 {/* Content Sections */}
